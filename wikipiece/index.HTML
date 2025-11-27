@@ -1,31 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-   
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7576382885352126"
-     crossorigin="anonymous"></script>
+  <!-- 🔹 1. Script global de AdSense
+       Este script carga la librería de Google AdSense y permite que se muestren anuncios
+       en tu sitio. Debe ir en el <head> y solo UNA VEZ por página. -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7576382885352126"
+          crossorigin="anonymous"></script>
 
-    <meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/OP.CSS">
-	<title translate="no">wiki-piece</title>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FBNRF3Y3JT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- 🔹 2. Codificación de caracteres
+       Asegura que se vean bien los acentos, eñes, símbolos, etc. -->
+  <meta charset="UTF-8">
 
-  gtag('config', 'G-FBNRF3Y3JT');
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7576382885352126"
-     crossorigin="anonymous"></script>
+  <!-- 🔹 3. Título de la página
+       Se muestra en la pestaña del navegador y como título principal en Google.
+       Podrías hacerlo más descriptivo para SEO, por ejemplo:
+       "Wiki-Piece – Wiki y tier lists de One Piece" -->
+  <title translate="no">wiki-piece</title>
 
+  <!-- 🔹 4. Compatibilidad con Internet Explorer
+       Indicaba a IE cómo renderizar la página. Hoy casi no se usa, pero no molesta. -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <!-- 🔹 5. Fuente de Google
+       Importa la familia de fuentes "Open Sans" para tu diseño. -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+
+  <!-- 🔹 6. Iconos de Font Awesome
+       Carga el kit de iconos para usar <i class="fas fa-..."></i> en tu HTML. -->
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+
+  <!-- 🔹 7. Adaptación a móviles (MUY importante)
+       Hace que la web se vea bien en celulares y mejora el SEO. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 🔹 8. Hoja de estilos principal
+       Aquí enlazas tu CSS donde defines colores, tamaños, etc. -->
+  <link rel="stylesheet" href="css/OP.CSS">
+
+  <!-- 🔹 9. (RECOMENDADO) Meta descripción para SEO
+       No se ve en la página, pero Google la usa en resultados de búsqueda.
+       Puedes ajustarla como quieras. -->
+  <meta name="description" content="Wiki-Piece: wiki de One Piece con información de personajes, arcos y tier lists del mundo de One Piece.">
+
+  <!-- 🔹 10. Google Analytics (gtag)
+       Este script sirve para medir cuántas visitas tienes, desde dónde llegan, etc. -->
+  <!-- Carga el script de Google Analytics de forma asíncrona -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBNRF3Y3JT"></script>
+
+  <!-- Configuración básica de Google Analytics -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FBNRF3Y3JT');
+  </script>
+
+  <!-- ❌ Este segundo script de AdSense estaba duplicado en tu código original.
+       No hace falta repetirlo, con el primero al inicio del <head> es suficiente. -->
+  <!--
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7576382885352126"
+          crossorigin="anonymous"></script>
+  -->
 </head>
+
 <!-- AVISO / POLÍTICA ANTES DE ENTRAR (SIEMPRE) -->
 <div class="privacy-overlay" id="privacyOverlay">
   <div class="privacy-modal">
